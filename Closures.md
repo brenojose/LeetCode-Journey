@@ -18,6 +18,7 @@ function fora() {
 Closures são poderosas porque permitem que funções "lembrem" do ambiente em que foram criadas, proporcionando acesso contínuo a essas variáveis mesmo quando a função é executada em um contexto diferente. Se precisar que variáveis de outros arquivos sejam acessíveis, passe-as como argumentos para manter o comportamento esperado.
 
 ___
+# Closure
 
 When a function remembers its lexical scope, even when the function is executed outside that scope.
 
@@ -33,5 +34,5 @@ function outside() {
     return inside;
 }
 ```
-Conclusion
+### Conclusion
 Closures are powerful because they allow functions to "remember" the environment in which they were created, providing continuous access to those variables even when the function is executed in a different context. If you need variables from other files to be accessible, pass them as arguments to maintain the expected behavior.
